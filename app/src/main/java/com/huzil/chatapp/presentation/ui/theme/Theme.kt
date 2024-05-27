@@ -1,4 +1,4 @@
-package com.huzil.chatapp.ui.theme
+package com.huzil.chatapp.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build

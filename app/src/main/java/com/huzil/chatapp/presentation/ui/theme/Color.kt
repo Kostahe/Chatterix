@@ -1,4 +1,4 @@
-package com.huzil.chatapp.ui.theme
+package com.huzil.chatapp.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
