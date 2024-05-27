@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.huzil.chatapp"
+    namespace = "com.huzil.chatterix"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.huzil.chatapp"
+        applicationId = "com.huzil.chatterix"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
