@@ -34,7 +34,8 @@ hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt"
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt" }
 hilt-navigation = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltGroup" }
 navigation-component = { module = "androidx.navigation:navigation-compose", version.ref = "navigationComponent" }
-firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom"}
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-authentication = { group = "com.google.firebase", name = "firebase-auth" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
@@ -42,5 +43,5 @@ jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = 
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
-firebase = { id = "com.google.gms.google-services", version.ref = "firebasePlugin"}
+firebase = { id = "com.google.gms.google-services", version.ref = "firebasePlugin" }
 
