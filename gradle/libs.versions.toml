@@ -12,6 +12,8 @@ ksp = "2.0.0-1.0.21"
 hilt = "2.49"
 hiltGroup = "1.2.0"
 navigationComponent = "2.7.7"
+firebaseBom = "33.0.0"
+firebasePlugin = "4.4.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -32,6 +34,7 @@ hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt"
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt" }
 hilt-navigation = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltGroup" }
 navigation-component = { module = "androidx.navigation:navigation-compose", version.ref = "navigationComponent" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom"}
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
@@ -39,4 +42,5 @@ jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = 
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+firebase = { id = "com.google.gms.google-services", version.ref = "firebasePlugin"}
 
