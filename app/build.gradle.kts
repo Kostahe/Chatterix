@@ -1,8 +1,9 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
-    alias(libs.plugins.firebase)
     alias(libs.plugins.compose.compiler)
+    alias(libs.plugins.kotlin.serialization)
+    alias(libs.plugins.firebase)
     alias(libs.plugins.ksp)
     alias(libs.plugins.hilt)
 }
@@ -83,4 +84,7 @@ dependencies {
     // Firebase
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.authentication)
+
+    // Kotlinx serialization
+    implementation(libs.kotlinx.serialization.json)
 }
