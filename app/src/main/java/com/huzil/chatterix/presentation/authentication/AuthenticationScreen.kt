@@ -49,7 +49,8 @@ fun AuthenticationScreen(
         )
         Text(
             text = stringResource(id = R.string.chat_authentication_subtitle),
-            style = MaterialTheme.typography.titleSmall
+            style = MaterialTheme.typography.titleSmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.8f)
         )
         EmailSignInButton(
             onClick = onEmail,
