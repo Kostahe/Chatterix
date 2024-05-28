@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Chatterix</string>
+
+    <!--  Authentication  -->
+    <string name="password_visible">Password visible</string>
+    <string name="password_invisible">Password invisible\n</string>
 </resources>
