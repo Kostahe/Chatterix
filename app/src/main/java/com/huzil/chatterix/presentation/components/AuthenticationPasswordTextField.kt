@@ -28,6 +28,7 @@ import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewLightDark
 import com.huzil.chatterix.R
+import com.huzil.chatterix.presentation.ui.theme.ChatterixTheme
 
 @Composable
 fun AuthenticationPasswordTextField(
@@ -87,14 +88,16 @@ fun AuthenticationPasswordTextField(
 @Preview(showBackground = true, name = "AuthenticationPasswordTextField")
 @Composable
 private fun PreviewAuthenticationPasswordTextField() {
-    var value by remember {
-        mutableStateOf("Test")
-    }
+    ChatterixTheme {
+        var value by remember {
+            mutableStateOf("Test")
+        }
 
-    AuthenticationPasswordTextField(
-        value = value,
-        onValueChange = { value = it },
-        imeAction = ImeAction.Done,
-        label = "Password"
-    )
+        AuthenticationPasswordTextField(
+            value = value,
+            onValueChange = { value = it },
+            imeAction = ImeAction.Done,
+            label = "Password"
+        )
+    }
 }
