@@ -15,6 +15,8 @@ composeNavigation = "2.8.0-beta01"
 serialization = "1.6.3"
 firebaseBom = "33.0.0"
 firebasePlugin = "4.4.1"
+credentials = "1.2.2"
+googleid = "1.1.0"
 uiTextGoogleFonts = "1.6.7"
 
 [libraries]
@@ -40,7 +42,12 @@ compose-navigation = { group = "androidx.navigation", name = "navigation-compose
 kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "serialization"}
 firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom" }
 firebase-authentication = { group = "com.google.firebase", name = "firebase-auth" }
+#noinspection CredentialDependency Added credentials-play-services-auth
+androidx-credentials = { group = "androidx.credentials", name = "credentials", version.ref = "credentials" }
+androidx-credentials-play-services-auth = { module = "androidx.credentials:credentials-play-services-auth", version.ref = "credentials" }
+googleid = { module = "com.google.android.libraries.identity.googleid:googleid", version.ref = "googleid" }
 androidx-ui-text-google-fonts = { group = "androidx.compose.ui", name = "ui-text-google-fonts", version.ref = "uiTextGoogleFonts" }
+
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
