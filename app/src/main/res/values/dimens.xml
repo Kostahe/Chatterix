@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Authentication  -->
+    <dimen name="auth_screen_pad_horizontal">20dp</dimen>
+    <dimen name="auth_screen_pad_vertical">10dp</dimen>
+    <dimen name="auth_logo_size">300.dp</dimen>
+    <dimen name="auth_logo_pad_bottom">100.dp</dimen>
+    <dimen name="auth_button_width">250.dp</dimen>
+    <dimen name="auth_button_image_size">24.dp</dimen>
+    <dimen name="email_button_pad_bet_child">12.dp</dimen>
+    <dimen name="google_button_pad_bet_child">8.dp</dimen>
+</resources>
