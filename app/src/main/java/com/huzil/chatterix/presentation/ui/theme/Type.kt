@@ -3,9 +3,8 @@ package com.huzil.chatterix.presentation.ui.theme
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
-
-import androidx.compose.ui.text.googlefonts.GoogleFont
 import androidx.compose.ui.text.googlefonts.Font
+import androidx.compose.ui.text.googlefonts.GoogleFont
 import androidx.compose.ui.text.style.TextAlign
 import com.huzil.chatterix.R
 
@@ -48,7 +47,7 @@ val AppTypography = Typography(
     titleSmall = baseline.titleSmall.copy(
         fontFamily = displayFontFamily,
         fontWeight = FontWeight.Thin,
-        textAlign = TextAlign.Justify
+        textAlign = TextAlign.Center
     ),
     bodyLarge = baseline.bodyLarge.copy(fontFamily = bodyFontFamily),
     bodyMedium = baseline.bodyMedium.copy(fontFamily = bodyFontFamily),
