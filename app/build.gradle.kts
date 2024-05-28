@@ -78,7 +78,7 @@ dependencies {
     ksp(libs.hilt.android.compiler)
 
     // Navigation component
-    implementation(libs.navigation.component)
+    implementation(libs.compose.navigation)
 
     // Firebase
     implementation(platform(libs.firebase.bom))
