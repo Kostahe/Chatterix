@@ -19,7 +19,7 @@
             android:name="com.huzil.chatterix.presentation.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.Chatterix"
-            android:screenOrientation="landscape">
+            android:screenOrientation="locked">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
