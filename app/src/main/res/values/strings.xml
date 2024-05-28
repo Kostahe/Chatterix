@@ -3,5 +3,12 @@
 
     <!--  Authentication  -->
     <string name="password_visible">Password visible</string>
-    <string name="password_invisible">Password invisible\n</string>
+    <string name="password_invisible">Password invisible</string>
+    <string name="app_logo">App logo</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="chat_authentication_title">Chat and Call</string>
+    <string name="chat_authentication_subtitle">Our intuitive Chat and Call features make communication simple and seamless.</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="sign_in_with_email">Sign in with Email</string>
 </resources>
