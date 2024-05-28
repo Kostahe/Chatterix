@@ -85,6 +85,11 @@ dependencies {
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.authentication)
 
+    // Credential manager
+    implementation(libs.androidx.credentials)
+    implementation(libs.androidx.credentials.play.services.auth)
+    implementation(libs.googleid)
+
     // Kotlinx serialization
     implementation(libs.kotlinx.serialization.json)
 }
