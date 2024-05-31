@@ -1,4 +1,4 @@
-package com.huzil.chatterix.presentation.authentication.register
+package com.huzil.chatterix.presentation.authentication.registration
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
@@ -9,13 +9,14 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 
 @HiltViewModel
-class RegisterViewModel @Inject constructor(
+class RegistrationViewModel @Inject constructor(
     savedStateHandle: SavedStateHandle
 ) : ViewModel() {
 
-    private val _stateFlow: MutableStateFlow<RegisterState> = MutableStateFlow(RegisterState())
+    private val _stateFlow: MutableStateFlow<RegistrationState> =
+        MutableStateFlow(RegistrationState())
 
-    val stateFlow: StateFlow<RegisterState> = _stateFlow.asStateFlow()
+    val stateFlow: StateFlow<RegistrationState> = _stateFlow.asStateFlow()
 
 
 }
