@@ -1,12 +1,11 @@
 package com.huzil.chatterix.presentation
 
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.navigation
-import com.huzil.chatterix.presentation.authentication.AuthenticationScreen
+import com.huzil.chatterix.presentation.authentication.AuthenticationRoute
 import kotlinx.serialization.Serializable
 
 @Composable
@@ -21,10 +20,7 @@ fun AppNavGraph(
             startDestination = NavigationRoutes.AuthenticationScreen
         ) {
             composable<NavigationRoutes.AuthenticationScreen> {
-                AuthenticationScreen(
-                    onEmail = {},
-                    onGoogle = {}
-                )
+                AuthenticationRoute()
             }
         }
     }
