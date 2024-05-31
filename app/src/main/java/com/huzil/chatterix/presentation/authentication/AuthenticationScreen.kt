@@ -74,5 +74,4 @@ private fun AuthenticationScreenPreview(
             authenticationState = state,
             authenticationActions = AuthenticationActions()
         )
-    }
 }
