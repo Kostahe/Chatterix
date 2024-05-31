@@ -9,13 +9,9 @@ class AuthenticationCoordinator(
 ) {
     val screenStateFlow = viewModel.stateFlow
 
-    fun onGoogleSignInClick() {
+    fun onGoogleSignInClick() = viewModel::googleSignIn
 
-    }
-
-    fun onEmailSignInClick() {
-
-    }
+    fun onEmailSignInClick() = viewModel::emailSignIn
  }
 
 @Composable
